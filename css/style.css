@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 20px;
+}
+
+.wrapper {
+    background: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0,0,0,0.15);
+}
+
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+.my-photo {
+    width: 370px;
+}
+
+.about-me {
+    padding: 110px 90px 110px 90px;
+}
+
+.Contacts-conteiner {
+    margin: 60px 0 40px 40px;
+}
+
+.Contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434c5a ;
+}
+
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff ;
+    margin-right: 10px;
+}
+
+.tech-skills-tittle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tech-skills-container {
+    margin: 55px 40px 0 40px;
+}
+
+.tech-skills-container li {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #d8dadd;
+}
+
+.tech-skills-container li::marker {
+    color: #ff6b08;
+}
+
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info-container {
+    margin-bottom: 65px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-container {
+    margin-bottom: 55px;
+}
+
+.projects-container li::marker {
+    color: #000000;
+    font-weight: 700;
+    margin-left: 13px;
+}
+
+.about-me li {
+    /* margin-left: 15px; */
+    list-style-position: inside;
+}
+
+.dots {
+    color: #bebebe;
+    font-weight: 100;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 10px 0 15px 0;
+}
+
+.profession-name {
+    color: #ff7011;
+}
+
+.profession-time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+    margin-bottom: 14px;
+}
+
+.profession-dutes {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.profession-dutes li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
